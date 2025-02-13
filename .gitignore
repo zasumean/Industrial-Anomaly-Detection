@@ -1,0 +1,20 @@
+
+# Ignore dataset folders
+audiojack/NG/
+audiojack/OK/
+realiad_jsons/jsons/
+
+# Ignore JSON files in the dataset
+realiad_jsons/jsons/*.json
+
+# Ignore zip files
+*.zip
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore large files
+*.npy
+*.pkl
+*.pth
